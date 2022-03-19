@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51683
+52320
 Successfully changed project path to: /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs
 /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/software/Desktop/spring 2022/museum
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 146.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 145.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.10f1 (ee872746220e)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,74 +70,74 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56077
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001076 seconds.
+Registered in 0.001579 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 141.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 143.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
+- Completed reload, in  0.986 seconds
 Domain Reload Profiling:
-	ReloadAssembly (983ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (987ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (794ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (771ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
+			SetupTypeCache (190ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (494ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (460ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (142ms)
+				RefreshPlugins (143ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003881 seconds.
+Registered in 0.004341 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.737 seconds
+- Completed reload, in  1.545 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1738ms)
-		BeginReloadAssembly (170ms)
+	ReloadAssembly (1547ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1403ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1242ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (524ms)
+			SetupTypeCache (467ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (623ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (530ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (448ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (376ms)
 				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -147,13 +147,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (96.0 KB). Loaded Objects now: 3691.
-Memory consumption went from 228.9 MB to 228.9 MB.
-Total: 4.222043 ms (FindLiveObjects: 0.278155 ms CreateObjectMapping: 0.137398 ms MarkObjects: 3.667273 ms  DeleteObjects: 0.138143 ms)
+Memory consumption went from 229.1 MB to 229.0 MB.
+Total: 4.553885 ms (FindLiveObjects: 0.465880 ms CreateObjectMapping: 0.278246 ms MarkObjects: 3.659173 ms  DeleteObjects: 0.148891 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,85 +167,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 176711.776893 seconds.
-  path: Assets/未分类/3LE Low Poly Cloud Pack/Models/Cloud_Swirls_Small.fbx
-  artifactKey: Guid(ec8da4f39c5eb934893a42ddb1cd191f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/未分类/3LE Low Poly Cloud Pack/Models/Cloud_Swirls_Small.fbx using Guid(ec8da4f39c5eb934893a42ddb1cd191f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b6ef6744266f52675af75018b68038') in 0.801207 seconds 
+  Time since last request: 177707.041414 seconds.
+  path: Assets/未分类/KitchenAppliances/Models/Seperated For Animation/Microwave_Oven.fbx
+  artifactKey: Guid(aa542ce8ee9f0a949b16c7a5f7856136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/未分类/KitchenAppliances/Models/Seperated For Animation/Microwave_Oven.fbx using Guid(aa542ce8ee9f0a949b16c7a5f7856136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15b38e2467432692de70221c3971ecf') in 0.501832 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/未分类/3LE Low Poly Cloud Pack/Models/Cloud_Cumulus_Med.fbx
-  artifactKey: Guid(74b8105a60af1c84394ac279e7081b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/未分类/3LE Low Poly Cloud Pack/Models/Cloud_Cumulus_Med.fbx using Guid(74b8105a60af1c84394ac279e7081b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcd257b83b861fd6f608cb6534f265a') in 0.057337 seconds 
+  Time since last request: 0.000091 seconds.
+  path: Assets/未分类/KitchenAppliances/Models/Fridge.fbx
+  artifactKey: Guid(7791aa6beaaa15148b5287a0538526d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/未分类/KitchenAppliances/Models/Fridge.fbx using Guid(7791aa6beaaa15148b5287a0538526d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee8ec2095e4e1c5e0da99fe575a1bf9') in 0.002110 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/未分类/3LE Low Poly Cloud Pack/Models/Cloud_Strato.fbx
-  artifactKey: Guid(85c7b36c43c3b5d4bb144cc09fc55f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/未分类/3LE Low Poly Cloud Pack/Models/Cloud_Strato.fbx using Guid(85c7b36c43c3b5d4bb144cc09fc55f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58542a87a945d959ca98ad9e5a2d112') in 0.028693 seconds 
+  Time since last request: 0.000063 seconds.
+  path: Assets/未分类/KitchenAppliances/Models/Seperated For Animation/Washer.fbx
+  artifactKey: Guid(8b5c6df027335f643a26ec88baebf5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/未分类/KitchenAppliances/Models/Seperated For Animation/Washer.fbx using Guid(8b5c6df027335f643a26ec88baebf5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1a15952530313a982b036ba8d6c4a1') in 0.065964 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/未分类/3LE Low Poly Cloud Pack/Models/Clouds_stratus.fbx
-  artifactKey: Guid(e0f44c853e3967d4ca02c833371c7171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/未分类/3LE Low Poly Cloud Pack/Models/Clouds_stratus.fbx using Guid(e0f44c853e3967d4ca02c833371c7171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2715c1293f89a78cf93b4934d795f3') in 0.023886 seconds 
+  Time since last request: 0.000211 seconds.
+  path: Assets/未分类/KitchenAppliances/Models/Washer.fbx
+  artifactKey: Guid(f1da24e6f87f419458e1913c5a2fe03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/未分类/KitchenAppliances/Models/Washer.fbx using Guid(f1da24e6f87f419458e1913c5a2fe03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a872f84f3eef821b2f11a597693af658') in 0.003260 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.027516 seconds.
-  path: Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulonimbus_G1.prefab
-  artifactKey: Guid(7a7ada80b7910bb47aa7c5434361abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulonimbus_G1.prefab using Guid(7a7ada80b7910bb47aa7c5434361abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d2417d9d925631696e0effc9f472e6') in 0.195514 seconds 
+  Time since last request: 0.000087 seconds.
+  path: Assets/未分类/KitchenAppliances/Models/Fan.fbx
+  artifactKey: Guid(0bf0e70a8bd45044eaa51b5387ba5c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/未分类/KitchenAppliances/Models/Fan.fbx using Guid(0bf0e70a8bd45044eaa51b5387ba5c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b2b31eb3be3c5869cc2d9283cdd359') in 0.002445 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Stratus_G2.prefab
-  artifactKey: Guid(bcea47ee6f529ae49bd4e17c7203013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Stratus_G2.prefab using Guid(bcea47ee6f529ae49bd4e17c7203013a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c922356665488737da87dd1121f8f0b') in 0.030758 seconds 
+  Time since last request: 0.000087 seconds.
+  path: Assets/未分类/KitchenAppliances/Models/Seperated For Animation/Fridge_SBS.fbx
+  artifactKey: Guid(4ef85326d2b48fb48bee81014892b40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/未分类/KitchenAppliances/Models/Seperated For Animation/Fridge_SBS.fbx using Guid(4ef85326d2b48fb48bee81014892b40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea7aacf5aa021e3525f777e546c9e49') in 0.175213 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Strato_G2.prefab
-  artifactKey: Guid(79f3726e667d7254296b8aef52d0f074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Strato_G2.prefab using Guid(79f3726e667d7254296b8aef52d0f074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e290acd62df875e2d824905ab11617ff') in 0.026103 seconds 
+  Time since last request: 0.000080 seconds.
+  path: Assets/未分类/KitchenAppliances/Models/Stove.fbx
+  artifactKey: Guid(6a4e254c0b0d9214ea7b53f9c0c43b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/未分类/KitchenAppliances/Models/Stove.fbx using Guid(6a4e254c0b0d9214ea7b53f9c0c43b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b575d08de99292f1dd492c5b5095ff1b') in 0.004816 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Swirls_G1.prefab
-  artifactKey: Guid(b94cc7cff6b6e2645a5e7c1ce686314b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Swirls_G1.prefab using Guid(b94cc7cff6b6e2645a5e7c1ce686314b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caee7b1326e4f2dce0b24cd5716df924') in 0.024124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulus_G1.prefab
-  artifactKey: Guid(decc2ba5add7b984aab134a07b436422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Cumulus_G1.prefab using Guid(decc2ba5add7b984aab134a07b436422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed53039593cd578aa1de4f9e0f62b31') in 0.020599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 73.354248 seconds.
-  path: Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Strato_G2.prefab
-  artifactKey: Guid(79f3726e667d7254296b8aef52d0f074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/未分类/3LE Low Poly Cloud Pack/Prefabs/Clouds_Strato_G2.prefab using Guid(79f3726e667d7254296b8aef52d0f074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2bc1e828a9fd726e1dc019371daa0d4') in 0.016994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 201.707252 seconds.
-  path: Assets/New Folder
-  artifactKey: Guid(ca8011b8d98204bd3a0b937156cd9b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(ca8011b8d98204bd3a0b937156cd9b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '301628dc26be6b87bf2d5b2ee6354d58') in 0.003819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.682945 seconds.
-  path: Assets/Prefab
-  artifactKey: Guid(efcfb7934266d44faa7ab0459286a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab using Guid(efcfb7934266d44faa7ab0459286a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf09ff8a5c9a3b47d6a3b740c1e099d') in 0.002093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.120599 seconds.
-  path: Assets/Models
-  artifactKey: Guid(4a5429d4a33624955b3ea0a401e48c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models using Guid(4a5429d4a33624955b3ea0a401e48c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d7ea8ceb4be1184bd1656d35e1fe86') in 0.001352 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.210524 seconds.
-  path: Assets/Texture
-  artifactKey: Guid(67678f19771a649579879c7c8f5ee328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texture using Guid(67678f19771a649579879c7c8f5ee328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4f1b0827820864ff6b47439b41fffc') in 0.001028 seconds 
+  Time since last request: 0.000131 seconds.
+  path: Assets/未分类/KitchenAppliances/Prefabs/Stovetop.prefab
+  artifactKey: Guid(eb766ebb61571b14baf76b08c8426daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/未分类/KitchenAppliances/Prefabs/Stovetop.prefab using Guid(eb766ebb61571b14baf76b08c8426daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6332e569334b4aa0ba51651b3b9df2fb') in 0.287575 seconds 
