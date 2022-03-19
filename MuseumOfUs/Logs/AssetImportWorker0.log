@@ -2,8 +2,8 @@ Unity Editor version:    2021.2.10f1 (ee872746220e)
 Branch:                  2021.2/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 10.15.2 (Build 19C57)
-Darwin version:          19.2.0
+macOS version:           Version 10.15.7 (Build 19H1323)
+Darwin version:          19.6.0
 Architecture:            x86_64
 Running under Rosetta:   NO
 Available memory:        16384 MB
@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs
+/Users/anhsu/Museum-of-Us/MuseumOfUs
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64485
-Successfully changed project path to: /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs
-/Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs
+50263
+Successfully changed project path to: /Users/anhsu/Museum-of-Us/MuseumOfUs
+/Users/anhsu/Museum-of-Us/MuseumOfUs
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,91 +54,93 @@ Successfully changed project path to: /Users/software/Desktop/spring 2022/museum
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 140.18 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 116.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.10f1 (ee872746220e)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Assets
+[Subsystems] Discovering subsystems at path /Users/anhsu/Museum-of-Us/MuseumOfUs/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Color LCD preferred device: Intel Iris Pro Graphics (low power)
-Metal devices available: 2
-0: AMD Radeon R9 M370X (high power)
-1: Intel Iris Pro Graphics (low power)
-Using device AMD Radeon R9 M370X (high power)
-Initializing Metal device caps: AMD Radeon R9 M370X
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56829
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001592 seconds.
+Registered in 0.001034 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 138.08 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.984 seconds
+- Completed reload, in  0.729 seconds
 Domain Reload Profiling:
-	ReloadAssembly (985ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (729ms)
+		BeginReloadAssembly (65ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (764ms)
-			LoadAssemblies (104ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (454ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (330ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (138ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (232ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007413 seconds.
+Registered in 0.002378 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anhsu/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anhsu/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.599 seconds
+- Completed reload, in  1.285 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1600ms)
-		BeginReloadAssembly (171ms)
+	ReloadAssembly (1286ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1265ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1050ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (455ms)
+			SetupTypeCache (361ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (539ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (473ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (383ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,14 +148,19 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+Failed to load shader (instanceID 406, GUID 275eb5e6d1651d843994a5a0fe5d0ece)
+Failed to load shader (instanceID 402, GUID 7f50d1ec77e2cc9459ca9d36924ffc53)
+Failed to load shader (instanceID 410, GUID dd71abba2dbe683468cb262da3893f4a)
+Failed to load shader (instanceID 408, GUID 0aa18dddb55bf054cb6811a4c172b2b0)
+Failed to load shader (instanceID 404, GUID 32f82700d2f3c75449479a861f3b9c6e)
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3229 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (95.9 KB). Loaded Objects now: 3689.
-Memory consumption went from 228.4 MB to 228.3 MB.
-Total: 3.845963 ms (FindLiveObjects: 0.313132 ms CreateObjectMapping: 0.145765 ms MarkObjects: 3.128414 ms  DeleteObjects: 0.257545 ms)
+Unloading 3219 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (157.8 KB). Loaded Objects now: 3679.
+Memory consumption went from 224.9 MB to 224.7 MB.
+Total: 6.602497 ms (FindLiveObjects: 0.279670 ms CreateObjectMapping: 0.285647 ms MarkObjects: 5.879693 ms  DeleteObjects: 0.156247 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,67 +174,127 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 169730.157185 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/CastleDemo/CastleModel.fbx
-  artifactKey: Guid(243c24d122b9c3845b770b9fc95effa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/CastleDemo/CastleModel.fbx using Guid(243c24d122b9c3845b770b9fc95effa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7086007e60e65a3fbcb0146ab95bc0') in 0.794253 seconds 
+  Time since last request: 473184.621698 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573f372cee4d5c33528708fe5a1eccfd') in 0.020104 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/monument.fbx
-  artifactKey: Guid(ccc8bd1c400dc9340b9caacbb895053f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/monument.fbx using Guid(ccc8bd1c400dc9340b9caacbb895053f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea35cbc4d851d9f9aa0b3f0d6fa872f6') in 1.253972 seconds 
+  Time since last request: 27.135081 seconds.
+  path: Assets/Editor Default Resources
+  artifactKey: Guid(e21412b74c19e4e059b0a594ab6079d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources using Guid(e21412b74c19e4e059b0a594ab6079d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9b80b45df1aa6cb7cf57a8d3fcd391') in 0.002775 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.250725 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Monument Valley.unity
-  artifactKey: Guid(ae8f4b8dcf1ea2640a0a73cb4c377da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Monument Valley.unity using Guid(ae8f4b8dcf1ea2640a0a73cb4c377da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314ad451d5cde3cb51648528c5a1436b') in 0.004851 seconds 
+  Time since last request: 0.103538 seconds.
+  path: Assets/Editor Default Resources/MinimalistClipboard.asset
+  artifactKey: Guid(3fe35bb61ab2f494caeb5b09f7ea696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/MinimalistClipboard.asset using Guid(3fe35bb61ab2f494caeb5b09f7ea696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce51503e121eff31dc7127eaafb1eb0f') in 0.411189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.175315 seconds.
+  path: Assets/Alstrainfinite
+  artifactKey: Guid(69c2564143c324060b77cdd537f787d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite using Guid(69c2564143c324060b77cdd537f787d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a067a018053d48c107eb4f31732cda4e') in 0.002147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.155943 seconds.
+  path: Assets/Alstrainfinite/KitchenAppliances/Materials
+  artifactKey: Guid(fbc6714961ec57947a99f3cad616de2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstrainfinite/KitchenAppliances/Materials using Guid(fbc6714961ec57947a99f3cad616de2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f766e17e083e3ba5454ccb5002029008') in 0.001643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.366152 seconds.
+  path: Assets/ZIWEI - Materials/FLOOR.ROCK.mat
+  artifactKey: Guid(6fbf3af19c3a44a53b9a413a8f2793e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZIWEI - Materials/FLOOR.ROCK.mat using Guid(6fbf3af19c3a44a53b9a413a8f2793e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efa81e552bc321d638b0b04de08f9a3') in 0.699885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.016628 seconds.
+  path: Assets/未分类
+  artifactKey: Guid(2c2b58111478f4b95861676d936d9193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/未分类 using Guid(2c2b58111478f4b95861676d936d9193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78824fc45dd93d0bde29894cb4d5dc66') in 0.001518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.341914 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(aba594e91912f4c479d532f1547932cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(aba594e91912f4c479d532f1547932cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac322488b090a0ef0c37dc5361261fee') in 0.001091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.082038 seconds.
+  path: Assets/3LE Low Poly Cloud Pack
+  artifactKey: Guid(ec350c3eee7f44013b865f661d1c8c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3LE Low Poly Cloud Pack using Guid(ec350c3eee7f44013b865f661d1c8c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc9411d04f34cfc3e71892a62edc53d') in 0.002913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.362121 seconds.
+  path: Assets/Alstra Infinite
+  artifactKey: Guid(34e2d65eeedb7478b8b43c9713f535f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite using Guid(34e2d65eeedb7478b8b43c9713f535f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03252e7600a56537017160030825552f') in 0.002478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.755037 seconds.
+  path: Assets/Alstra Infinite/Planes LowPoly
+  artifactKey: Guid(62e01d137308740c69d55b41352c3617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Planes LowPoly using Guid(62e01d137308740c69d55b41352c3617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7105f4c83b5c39f97fec5ee83edda29') in 0.001595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.974271 seconds.
+  path: Assets/Minimalist Free v2.4.2
+  artifactKey: Guid(9e7b5f858e7c044ae92f4363d6aa0342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist Free v2.4.2 using Guid(9e7b5f858e7c044ae92f4363d6aa0342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ec71d5f58929ceabca885ef88053da') in 0.001882 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004759 seconds.
+Registered in 0.002056 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anhsu/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anhsu/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.803 seconds
+- Completed reload, in  1.156 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1804ms)
-		BeginReloadAssembly (192ms)
+	ReloadAssembly (1157ms)
+		BeginReloadAssembly (155ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (88ms)
-		EndReloadAssembly (1411ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (518ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (613ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (885ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (447ms)
-				ProcessInitializeOnLoadMethodAttributes (54ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.23 ms, found 2 plugins.
+Failed to load shader (instanceID 406, GUID 275eb5e6d1651d843994a5a0fe5d0ece)
+Failed to load shader (instanceID 402, GUID 7f50d1ec77e2cc9459ca9d36924ffc53)
+Failed to load shader (instanceID 410, GUID dd71abba2dbe683468cb262da3893f4a)
+Failed to load shader (instanceID 408, GUID 0aa18dddb55bf054cb6811a4c172b2b0)
+Failed to load shader (instanceID 404, GUID 32f82700d2f3c75449479a861f3b9c6e)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3218 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (72.4 KB). Loaded Objects now: 3700.
-Memory consumption went from 238.8 MB to 238.7 MB.
-Total: 7.391321 ms (FindLiveObjects: 0.459183 ms CreateObjectMapping: 0.261403 ms MarkObjects: 6.529678 ms  DeleteObjects: 0.139747 ms)
+Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (71.7 KB). Loaded Objects now: 3720.
+Memory consumption went from 239.7 MB to 239.6 MB.
+Total: 2.913539 ms (FindLiveObjects: 0.289294 ms CreateObjectMapping: 0.161028 ms MarkObjects: 2.378306 ms  DeleteObjects: 0.083776 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -240,510 +307,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 25.033443 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Monument Valley
-  artifactKey: Guid(5ab810d3d5e0e9143a531a067a6b0800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Monument Valley using Guid(5ab810d3d5e0e9143a531a067a6b0800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf964b309f04da052f1f485c8cfc250') in 0.018134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.050932 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Monument Valley/LightingData.asset
-  artifactKey: Guid(7d1250c009d3937408e23551397a1869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Monument Valley/LightingData.asset using Guid(7d1250c009d3937408e23551397a1869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee0934b1222985f5dd947bb20021b1b') in 0.533949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002108 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Monument Valley/ReflectionProbe-0.exr
-  artifactKey: Guid(584fbeb13ce46764a88725f6a9f34f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Monument Valley/ReflectionProbe-0.exr using Guid(584fbeb13ce46764a88725f6a9f34f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f2316346730329264d2fa24a588053') in 1.183184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.633708 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9faccd30ad1cf18f4758c9d6a80105b') in 0.004407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 91.312270 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/IsometricCasualGameDemo/CasualGameModel.fbx
-  artifactKey: Guid(c29d503e74f6f574f89aed4502c53d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/IsometricCasualGameDemo/CasualGameModel.fbx using Guid(c29d503e74f6f574f89aed4502c53d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2cedf5634d7f89260e94a1ec0ff65f') in 0.414398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.127471 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/LittleCastleIslandDemo/lityleCastleIslandDemo.fbx
-  artifactKey: Guid(c0ee00d3785ff534098f40c4c2e2ec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/LittleCastleIslandDemo/lityleCastleIslandDemo.fbx using Guid(c0ee00d3785ff534098f40c4c2e2ec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54796c50aede559d82ddda9a5614b49') in 0.281922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.086059 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/Flower.mat
-  artifactKey: Guid(34a7017f0762a7b45b5a7658a90eaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/Flower.mat using Guid(34a7017f0762a7b45b5a7658a90eaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c9916f48611a1f894c0ae9bdca2384') in 0.200855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/yello.mat
-  artifactKey: Guid(b8562cf55dcdae240ac86679da94db4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/yello.mat using Guid(b8562cf55dcdae240ac86679da94db4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3822ed6b85cd0d716b941a7d5c960780') in 0.030216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/Material.001.mat
-  artifactKey: Guid(89894b9ca1d5a5f478f247edc6de678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/Material.001.mat using Guid(89894b9ca1d5a5f478f247edc6de678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3739c4f517d635503ba8e36981af1905') in 0.024466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/Tree.mat
-  artifactKey: Guid(4d0f74564c7fd9d49ab154068b9c6097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/Tree.mat using Guid(4d0f74564c7fd9d49ab154068b9c6097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2b1b9a6c0cd3d006c8150fa906ea57') in 0.027159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/Material2.mat
-  artifactKey: Guid(7ed73fd61997f4e44aa3b696ac5678e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/Material2.mat using Guid(7ed73fd61997f4e44aa3b696ac5678e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77967d31430b775efb92648eb996c487') in 0.022723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/yellow.mat
-  artifactKey: Guid(8403841b95bf2f64bac3807a6eb054e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials/yellow.mat using Guid(8403841b95bf2f64bac3807a6eb054e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de4984fac9ae3374fe7069e117aebf6') in 0.021281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.485700 seconds.
-  path: Assets/Minimalist Free v2.4.2/Shaders/BuiltInRenderPipeline/Minimalist Standard LocalSpace.shader
-  artifactKey: Guid(0aa18dddb55bf054cb6811a4c172b2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Shaders/BuiltInRenderPipeline/Minimalist Standard LocalSpace.shader using Guid(0aa18dddb55bf054cb6811a4c172b2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb2468f79e0a584f395702559d611d9') in 0.167892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.624610 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/IsometricCasualGameDemo/Materials
-  artifactKey: Guid(002a3c4dfbcc8214bbe98016cf555e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/IsometricCasualGameDemo/Materials using Guid(002a3c4dfbcc8214bbe98016cf555e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb53fab08b9fa98e302ee5156de33e7') in 0.001273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.060193 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/IsometricCasualGameDemo/Materials/Blue.mat
-  artifactKey: Guid(b5b89a809b716e44ea75fae91e8a4e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/IsometricCasualGameDemo/Materials/Blue.mat using Guid(b5b89a809b716e44ea75fae91e8a4e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9276a1878ed256b6cb18d16c685f13') in 0.032078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/IsometricCasualGameDemo/Materials/Yellow.mat
-  artifactKey: Guid(b96811d9ff13dec4183982e1c0b6369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/IsometricCasualGameDemo/Materials/Yellow.mat using Guid(b96811d9ff13dec4183982e1c0b6369b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9889d57632ffe16ba991c86cfc4644b6') in 0.022359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 97.463057 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/LittleCastleIslandDemo/Materials
-  artifactKey: Guid(6fdad72b99d24ab4e906eaa75d10578d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/LittleCastleIslandDemo/Materials using Guid(6fdad72b99d24ab4e906eaa75d10578d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3b785e6096d15f094ece4b5a2e98da') in 0.001395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.047575 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/LittleCastleIslandDemo/Materials/Building.mat
-  artifactKey: Guid(0b198e1dc79e5754eac34bff1a891f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/LittleCastleIslandDemo/Materials/Building.mat using Guid(0b198e1dc79e5754eac34bff1a891f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28827f16a0face47597958dc06f1c69') in 0.043974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/LittleCastleIslandDemo/Materials/Sky.mat
-  artifactKey: Guid(6bc14fc0e7882c745b2303f9d51515da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/LittleCastleIslandDemo/Materials/Sky.mat using Guid(6bc14fc0e7882c745b2303f9d51515da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dba1e9c743592c428178c0f6dadacc') in 0.051863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.267480 seconds.
-  path: Assets/Skybox/Stylized Sky/Shaders
-  artifactKey: Guid(a467af176e3ceba48899c668a09878d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Skybox/Stylized Sky/Shaders using Guid(a467af176e3ceba48899c668a09878d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95924b83243dab55bf888a949627ad0d') in 0.001951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.471902 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Scene
-  artifactKey: Guid(140189c21f58ee7428fb425e0a05525a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Scene using Guid(140189c21f58ee7428fb425e0a05525a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439d889465f9e4614181cc6e06be0c18') in 0.001509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.906962 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Scene/NewDemoScene
-  artifactKey: Guid(21161bec5ed2f0741a48170e46873202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Scene/NewDemoScene using Guid(21161bec5ed2f0741a48170e46873202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8fc5ef24a352c5f3c5b227c36a924e') in 0.001419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.341698 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Scene/NewDemoScene/LightingData.asset
-  artifactKey: Guid(ed325affb4c3ad4429931b4e7742b707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Scene/NewDemoScene/LightingData.asset using Guid(ed325affb4c3ad4429931b4e7742b707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796196c275121fc2a8833d602cf254fd') in 0.007134 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Scene/NewDemoScene/ReflectionProbe-0.exr
-  artifactKey: Guid(edc9cca9a50601540b1bfa941918ff77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Scene/NewDemoScene/ReflectionProbe-0.exr using Guid(edc9cca9a50601540b1bfa941918ff77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d11e601637e183034fcfa29901b69b') in 0.032738 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Scene/NewDemoScene/Lightmap-1_comp_light.exr
-  artifactKey: Guid(fbbc0cde7c4cf0341b8402884b18fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Scene/NewDemoScene/Lightmap-1_comp_light.exr using Guid(fbbc0cde7c4cf0341b8402884b18fc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adde8197c37e33d72a4e53e401c4584f') in 0.113000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.104793 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/IsometricCasualGameDemo/IsoCasualGame.unity
-  artifactKey: Guid(1b0e25251e4dc9e449850a9c5548d3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/IsometricCasualGameDemo/IsoCasualGame.unity using Guid(1b0e25251e4dc9e449850a9c5548d3b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be60fe6f2ace128696c2e7ab39f0118e') in 0.002116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.318012 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/LittleCastleIslandDemo/LittleCastleIslandDemo.unity
-  artifactKey: Guid(6d37bf7e99161f44183f6fbd1964a1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/LittleCastleIslandDemo/LittleCastleIslandDemo.unity using Guid(6d37bf7e99161f44183f6fbd1964a1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e7a09a2958a2a2e8bfa899297f75b3') in 0.001279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.672998 seconds.
-  path: Assets/Scenes/Main.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646ba431e250cf943353b79c6d045819') in 0.003617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 371.236656 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials
-  artifactKey: Guid(5ea01821067d4e644b623030d5baebcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/MonumentValleyDemo/Materials using Guid(5ea01821067d4e644b623030d5baebcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcdc33a2fcd2aee143eb7d7f39c922eb') in 0.001187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 82.873558 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/CastleDemo/CastleDemo/LightingData.asset
-  artifactKey: Guid(dda29f473fa7a384fb5868f608c53313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/CastleDemo/CastleDemo/LightingData.asset using Guid(dda29f473fa7a384fb5868f608c53313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842dd4a73aa8d3f69dad46c22ce45641') in 0.005670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/CastleDemo/CastleDemo/ReflectionProbe-0.exr
-  artifactKey: Guid(c47957dbe8d5e254b801b1af84d6d4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/CastleDemo/CastleDemo/ReflectionProbe-0.exr using Guid(c47957dbe8d5e254b801b1af84d6d4e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3750422b0c7574642b8ace1ba89d576c') in 0.040553 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.312029 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/CastleDemo/Materials/Green-Leaf-PNG-Photo.png
-  artifactKey: Guid(706a31aa38e0d5f4d8b330ee2c464b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/CastleDemo/Materials/Green-Leaf-PNG-Photo.png using Guid(706a31aa38e0d5f4d8b330ee2c464b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c565300cb4865f8bbf0261a2435fbc') in 0.664122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.389032 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh CaveRock.png
-  artifactKey: Guid(648c8f15b56cdab40b7e7ce591a6df1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh CaveRock.png using Guid(648c8f15b56cdab40b7e7ce591a6df1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c3afcd608d5af9e3a46670c7471a11') in 0.031665 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/UIOverlap.png
-  artifactKey: Guid(12f65caa6ec841941af36c4fbcbead04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/UIOverlap.png using Guid(12f65caa6ec841941af36c4fbcbead04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36c38c8fdc858bb769bc8a98401be5e') in 0.137109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh MountainRock1.png
-  artifactKey: Guid(9707e6f9ac00fd349be85f9e0d83e6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh MountainRock1.png using Guid(9707e6f9ac00fd349be85f9e0d83e6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e3898d4980d92aa141ea25b3b4a7ad') in 0.026645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh MountainRock2.png
-  artifactKey: Guid(4c0372149b4b64748924bd95dd9a1a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh MountainRock2.png using Guid(4c0372149b4b64748924bd95dd9a1a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0831634b9b6aede0c7406e79219a57bc') in 0.024765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh Water.png
-  artifactKey: Guid(16405ef759e21ba4ebc5b927ccaaf71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh Water.png using Guid(16405ef759e21ba4ebc5b927ccaaf71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80a90cfd11933a1cbbf56c46350027c') in 0.029083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh IslandRock3.001.png
-  artifactKey: Guid(2b745073a1934464f9feca88f54f0c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh IslandRock3.001.png using Guid(2b745073a1934464f9feca88f54f0c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c045d511511ad645f4e0700b481a68cc') in 0.020710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh Grassy.png
-  artifactKey: Guid(fda58c64c13f1e64b930f9f724059396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh Grassy.png using Guid(fda58c64c13f1e64b930f9f724059396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a83590d19ca6828f84b2154cb11ca83') in 0.031910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh IslandRock3.png
-  artifactKey: Guid(be25f64d337a64c43b51dc8fbbb4663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh IslandRock3.png using Guid(be25f64d337a64c43b51dc8fbbb4663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732bb64aa573cca7b5ec302ed0a7a4e3') in 0.022223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh IslandRock2.png
-  artifactKey: Guid(8b79bf8be359d4949a857b06cd7e594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh IslandRock2.png using Guid(8b79bf8be359d4949a857b06cd7e594d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f3556d855ccc3c3b5178795a43881f') in 0.023734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh IslandRock1.png
-  artifactKey: Guid(c4d94e347b4e77d4a9f1a5abf8c90238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh IslandRock1.png using Guid(c4d94e347b4e77d4a9f1a5abf8c90238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e3d435c610735f036ba701f3351ba1') in 0.025459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh MountainRock3.png
-  artifactKey: Guid(7e2619fb547a696488c8f17eec76a884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Textures/Ambient Occlusion Map from Mesh MountainRock3.png using Guid(7e2619fb547a696488c8f17eec76a884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d306d5dd7190596aed49244e0287a1') in 0.026112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.966314 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Demo 2 Model.fbx
-  artifactKey: Guid(35ce4b7bab2dec74d8e64ab1905b5876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Demo 2 Model.fbx using Guid(35ce4b7bab2dec74d8e64ab1905b5876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794b882dc97d5545e0e89a30c08333cd') in 1.956814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/Quad.mat
-  artifactKey: Guid(1b0556273f3893e4b9e85a509e624f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/Quad.mat using Guid(1b0556273f3893e4b9e85a509e624f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81725579a4211ac2e7d2ff23b397215e') in 0.021621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/FloatingRock.mat
-  artifactKey: Guid(c9457a8f22c563040863071680079cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/FloatingRock.mat using Guid(c9457a8f22c563040863071680079cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aec5cf4cebf8ff8c89d8db771397927') in 0.048260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/No Name.mat
-  artifactKey: Guid(372bc270495a39d408b00a3946f9dfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/No Name.mat using Guid(372bc270495a39d408b00a3946f9dfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca23347a44f5cdebbd021c65d3dab17') in 0.041625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/Sky.mat
-  artifactKey: Guid(0dd71c9e0874ced47b82fcd8cc1d2853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/Sky.mat using Guid(0dd71c9e0874ced47b82fcd8cc1d2853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ebf06e54ddecff267c4acb72196d2a') in 0.017491 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/IslandRock1.mat
-  artifactKey: Guid(b3a0249ecf8bbf345a64e86ebc5b4ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/IslandRock1.mat using Guid(b3a0249ecf8bbf345a64e86ebc5b4ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31703830bbbd0ff107192d149eb12b20') in 0.050387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/MountainRock2.mat
-  artifactKey: Guid(7b3dd90acdbf8ef42a79eaa31a45fa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/MountainRock2.mat using Guid(7b3dd90acdbf8ef42a79eaa31a45fa00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1356844b51f9f035b5b1792c2d286b') in 0.026266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/Flag.mat
-  artifactKey: Guid(dd36f9e5302017242ab747dd5894444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/Flag.mat using Guid(dd36f9e5302017242ab747dd5894444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf7a5e12ec685ea103266999dc99678') in 0.042273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/IslandRock3.001.mat
-  artifactKey: Guid(90735da9991fbfc4c913cb72ce4a56f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/IslandRock3.001.mat using Guid(90735da9991fbfc4c913cb72ce4a56f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece3a970a32aaa6248a8ae490d6ea784') in 0.048508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/IslandRock3.mat
-  artifactKey: Guid(9dbf56760bb2b95479ed3d6525c1e52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/IslandRock3.mat using Guid(9dbf56760bb2b95479ed3d6525c1e52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792b0a87bf7f87c846164fa306ce3ec1') in 0.046558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/Grassy.mat
-  artifactKey: Guid(076a37ee95903dd498acc0632062c73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AnotherIslandDemo/Model/Materials/Grassy.mat using Guid(076a37ee95903dd498acc0632062c73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c49353a9f06ea3b840d9eee0d968ec') in 0.053958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 71.105183 seconds.
-  path: Assets/Minimalist Free v2.4.2/Demos/AbstractBoxDemo/Materials/CloudTexture.jpg
-  artifactKey: Guid(4cf7eae948b2e8c4baeadba009ec262a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Minimalist Free v2.4.2/Demos/AbstractBoxDemo/Materials/CloudTexture.jpg using Guid(4cf7eae948b2e8c4baeadba009ec262a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0612897257df7b62a46b0cf7f50ff1a') in 0.637594 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002854 seconds.
+Registered in 0.001992 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anhsu/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anhsu/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.398 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2400ms)
-		BeginReloadAssembly (299ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (132ms)
-		EndReloadAssembly (1889ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (666ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (534ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (371ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
-Platform modules already initialized, skipping
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3237 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (72.3 KB). Loaded Objects now: 4001.
-Memory consumption went from 311.6 MB to 311.6 MB.
-Total: 4.187083 ms (FindLiveObjects: 0.428658 ms CreateObjectMapping: 0.218049 ms MarkObjects: 3.422374 ms  DeleteObjects: 0.116770 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 458.464169 seconds.
-  path: Assets/Stylized Astronaut/Stylized Astronaut.prefab
-  artifactKey: Guid(2abf19653d633114faedf3b60dc6c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Stylized Astronaut.prefab using Guid(2abf19653d633114faedf3b60dc6c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbb9a5d7a2a33b40e07b7b825066b58') in 0.303549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 101.419805 seconds.
-  path: Assets/Stylized Astronaut/Character/Astronaut.fbx
-  artifactKey: Guid(02dd6406ed1ebc248b2fafd0485e0de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/Astronaut.fbx using Guid(02dd6406ed1ebc248b2fafd0485e0de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b95193abb9252626de6db01225bbe56') in 0.058763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.753024 seconds.
-  path: Assets/Stylized Astronaut/Character/Player.cs
-  artifactKey: Guid(33e19da6a22259d4299a67d51a3c65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Stylized Astronaut/Character/Player.cs using Guid(33e19da6a22259d4299a67d51a3c65f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c18e16eb37347b5f9da41f62d2e821a') in 0.491023 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004120 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.779 seconds
+- Completed reload, in  1.203 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1780ms)
-		BeginReloadAssembly (285ms)
+	ReloadAssembly (1204ms)
+		BeginReloadAssembly (161ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (1285ms)
-			LoadAssemblies (117ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (528ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (504ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (348ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (72.4 KB). Loaded Objects now: 4004.
-Memory consumption went from 331.3 MB to 331.2 MB.
-Total: 5.395745 ms (FindLiveObjects: 0.350094 ms CreateObjectMapping: 0.273115 ms MarkObjects: 4.657839 ms  DeleteObjects: 0.113348 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003545 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.537 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1538ms)
-		BeginReloadAssembly (199ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (87ms)
-		EndReloadAssembly (1180ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (911ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (463ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (476ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (358ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (20ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Failed to load shader (instanceID 406, GUID 275eb5e6d1651d843994a5a0fe5d0ece)
+Failed to load shader (instanceID 402, GUID 7f50d1ec77e2cc9459ca9d36924ffc53)
+Failed to load shader (instanceID 410, GUID dd71abba2dbe683468cb262da3893f4a)
+Failed to load shader (instanceID 408, GUID 0aa18dddb55bf054cb6811a4c172b2b0)
+Failed to load shader (instanceID 404, GUID 32f82700d2f3c75449479a861f3b9c6e)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (72.5 KB). Loaded Objects now: 4006.
-Memory consumption went from 331.4 MB to 331.4 MB.
-Total: 3.991170 ms (FindLiveObjects: 0.350870 ms CreateObjectMapping: 0.322970 ms MarkObjects: 3.215182 ms  DeleteObjects: 0.100922 ms)
+Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (71.7 KB). Loaded Objects now: 3722.
+Memory consumption went from 239.8 MB to 239.8 MB.
+Total: 3.046731 ms (FindLiveObjects: 0.219540 ms CreateObjectMapping: 0.114690 ms MarkObjects: 2.613803 ms  DeleteObjects: 0.097592 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -755,3 +368,101 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 40.245218 seconds.
+  path: Assets/我们自己的Prefabs
+  artifactKey: Guid(a12d1f1c99a754076a19d23153859e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/我们自己的Prefabs using Guid(a12d1f1c99a754076a19d23153859e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2768301dd6048e8dc6f734bdccb28aff') in 0.007538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.176033 seconds.
+  path: Assets/p
+  artifactKey: Guid(a12d1f1c99a754076a19d23153859e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/p using Guid(a12d1f1c99a754076a19d23153859e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab5dba920cbe26cb30739097e5da7c8') in 0.002038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.569953 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(a12d1f1c99a754076a19d23153859e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(a12d1f1c99a754076a19d23153859e45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85b9c7d9e689b769cacaad74f36224f') in 0.001010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.365195 seconds.
+  path: Assets/Stylized Astronaut
+  artifactKey: Guid(72bcd4b1354d346c1b516e80d626fd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Astronaut using Guid(72bcd4b1354d346c1b516e80d626fd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8859c430956eccaf304daa51f5ff82dd') in 0.002032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.133329 seconds.
+  path: Assets/Stylized Astronaut/Stylized Astronaut.prefab
+  artifactKey: Guid(2abf19653d633114faedf3b60dc6c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Astronaut/Stylized Astronaut.prefab using Guid(2abf19653d633114faedf3b60dc6c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c081ee87469311d437da4cfc8dcd3005') in 0.164314 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002156 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/anhsu/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/anhsu/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.187 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1188ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (906ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (368ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Failed to load shader (instanceID 406, GUID 275eb5e6d1651d843994a5a0fe5d0ece)
+Failed to load shader (instanceID 402, GUID 7f50d1ec77e2cc9459ca9d36924ffc53)
+Failed to load shader (instanceID 410, GUID dd71abba2dbe683468cb262da3893f4a)
+Failed to load shader (instanceID 408, GUID 0aa18dddb55bf054cb6811a4c172b2b0)
+Failed to load shader (instanceID 404, GUID 32f82700d2f3c75449479a861f3b9c6e)
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3213 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (71.6 KB). Loaded Objects now: 3724.
+Memory consumption went from 244.2 MB to 244.1 MB.
+Total: 2.850911 ms (FindLiveObjects: 0.234790 ms CreateObjectMapping: 0.119031 ms MarkObjects: 2.319429 ms  DeleteObjects: 0.176851 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: b23960f63f64bdc6ff669e2cdcee2391 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 102.357872 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.010239 seconds 
