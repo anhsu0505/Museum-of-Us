@@ -22,7 +22,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 51683
+=======
+54046
+>>>>>>> 46ab855fb9e195b5db00e2089bf4121e16993798
 Successfully changed project path to: /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs
 /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +58,11 @@ Successfully changed project path to: /Users/software/Desktop/spring 2022/museum
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 146.55 ms, found 2 plugins.
+=======
+Refreshing native plugins compatible for Editor in 147.41 ms, found 2 plugins.
+>>>>>>> 46ab855fb9e195b5db00e2089bf4121e16993798
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.10f1 (ee872746220e)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
@@ -70,6 +78,7 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56077
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -83,11 +92,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (983ms)
 		BeginReloadAssembly (73ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56299
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000908 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 153.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (990ms)
+		BeginReloadAssembly (77ms)
+>>>>>>> 46ab855fb9e195b5db00e2089bf4121e16993798
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (794ms)
 			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -102,17 +127,38 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (2ms)
 				ProcessInitializeOnLoadAttributes (250ms)
 				ProcessInitializeOnLoadMethodAttributes (83ms)
+=======
+		EndReloadAssembly (790ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (154ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+>>>>>>> 46ab855fb9e195b5db00e2089bf4121e16993798
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.003881 seconds.
+=======
+Registered in 0.003571 seconds.
+>>>>>>> 46ab855fb9e195b5db00e2089bf4121e16993798
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/software/Desktop/spring 2022/museum/Github musuem/Museum-of-Us/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -138,6 +184,33 @@ Domain Reload Profiling:
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (124ms)
 				ProcessInitializeOnLoadAttributes (448ms)
+=======
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1547ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1239ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (451ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (549ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (392ms)
+>>>>>>> 46ab855fb9e195b5db00e2089bf4121e16993798
 				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -148,12 +221,21 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (96.0 KB). Loaded Objects now: 3691.
 Memory consumption went from 228.9 MB to 228.9 MB.
 Total: 4.222043 ms (FindLiveObjects: 0.278155 ms CreateObjectMapping: 0.137398 ms MarkObjects: 3.667273 ms  DeleteObjects: 0.138143 ms)
+=======
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (103.0 KB). Loaded Objects now: 3691.
+Memory consumption went from 229.2 MB to 229.1 MB.
+Total: 4.991150 ms (FindLiveObjects: 0.430292 ms CreateObjectMapping: 0.662034 ms MarkObjects: 3.737814 ms  DeleteObjects: 0.158625 ms)
+>>>>>>> 46ab855fb9e195b5db00e2089bf4121e16993798
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,6 +247,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 176711.776893 seconds.
@@ -249,3 +332,11 @@ Received Import Request.
   path: Assets/Texture
   artifactKey: Guid(67678f19771a649579879c7c8f5ee328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Texture using Guid(67678f19771a649579879c7c8f5ee328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4f1b0827820864ff6b47439b41fffc') in 0.001028 seconds 
+=======
+========================================================================
+Received Import Request.
+  Time since last request: 179863.624850 seconds.
+  path: Assets/Prefabs/ComPlaneV3.prefab
+  artifactKey: Guid(8942ac7016eef445aad4677ca3c1bf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ComPlaneV3.prefab using Guid(8942ac7016eef445aad4677ca3c1bf9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f62a819947cee718cdbf806909b85cb') in 0.417173 seconds 
+>>>>>>> 46ab855fb9e195b5db00e2089bf4121e16993798

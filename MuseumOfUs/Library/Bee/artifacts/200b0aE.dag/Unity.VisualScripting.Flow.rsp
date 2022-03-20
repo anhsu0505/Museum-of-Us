@@ -327,6 +327,7 @@
 -r:"/Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"/Applications/Unity/Hub/Editor/2021.2.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
+<<<<<<< HEAD
 -r:"/Users/SYF/Documents/GitHub/MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll"
 -r:"/Users/SYF/Documents/GitHub/MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"/Users/SYF/Documents/GitHub/MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
@@ -336,6 +337,17 @@
 -r:"/Users/SYF/Documents/GitHub/MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
 -r:"/Users/SYF/Documents/GitHub/MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"/Users/SYF/Documents/GitHub/MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+=======
+-r:"/Users/leahxwang/Desktop/Github_MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"/Users/leahxwang/Desktop/Github_MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"/Users/leahxwang/Desktop/Github_MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"/Users/leahxwang/Desktop/Github_MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"/Users/leahxwang/Desktop/Github_MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll"
+-r:"/Users/leahxwang/Desktop/Github_MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"/Users/leahxwang/Desktop/Github_MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"/Users/leahxwang/Desktop/Github_MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"/Users/leahxwang/Desktop/Github_MuseumOfUs/Untitled/MuseumOfUs/Library/PackageCache/com.unity.visualscripting@1.7.6/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+>>>>>>> 46ab855fb9e195b5db00e2089bf4121e16993798
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
